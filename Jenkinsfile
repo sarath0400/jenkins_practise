@@ -12,7 +12,7 @@ pipeline {
                     $class: 'GitSCM',
                     branches: [[name: '*/develop']],
                     userRemoteConfigs: [[
-                        url: 'https://github.com/USERNAME/REPOSITORY.git'
+                        url: 'https://github.com/sarath0400/jenkins_practise.git'
                     ]]
                 ])
             }
